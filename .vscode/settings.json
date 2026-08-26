@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^git rev-parse --is-inside-work-tree 2>\\$null; git status 2>&1 \\| Select-Object -First 20; git config --global user\\.email; git config --global user\\.name; gh --version$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
